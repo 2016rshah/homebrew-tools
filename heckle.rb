@@ -7,7 +7,8 @@ class Heckle < Formula
   bottle :unneeded
 
   def install
-    bin.install "heckle"
+    bin.install "heckle-2.0.2.1"
+    #bin.install "heckle"
   end
 
   test do
